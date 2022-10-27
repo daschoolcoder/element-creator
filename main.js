@@ -1,5 +1,5 @@
 const element= document.createElement("div");
-element.innerHTML= ` <body style="color:red;"> <lable for="i"> enter a element to create:</lable> <input id="i" name="i" placeholder="enter a element"> <input type="submit" for="i" onclick='appendE();'>
+element.innerHTML= ` <body style="color:red;"> <lable for="i"> enter a element to create:</lable> <input id="i" name="i" placeholder="enter a element"> <input type="submit" for="i" onclick='aE();'>
 <br>
 <br>
 <lable for="t"> text value:</label> <input id="t" name="t" placeholder="enter text value"> 
@@ -11,11 +11,11 @@ element.innerHTML= ` <body style="color:red;"> <lable for="i"> enter a element t
 </body>
 <br>`;
 document.body.appendChild(element);
-function appendE () { 
+function aE () { 
 var E = document.getElementById("i").value;
 var ES = document.getElementById("s").value;
 var txt = document.getElementById("t").value;
-var src = document.getElementById("src").value;
+
 const ce = document.createElement(E);
 ce.style = ES;
 ce.innerHTML  = txt;
