@@ -24,7 +24,6 @@ ce.innerHTML  = txt;
 ce.innerHTML= src;
 //making it do stuff 
 document.body.appendChild(ce);
-//console for debug
-
-console.log("creating element:" + E + " style:" +ES + " txt:" + txt )
-alert("loaded element creater")      ;}
+//debug
+  if error then {alert("a bug has been detected") ;}
+;}
