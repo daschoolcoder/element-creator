@@ -8,8 +8,6 @@ element.innerHTML= ` <body style="color:red;"> <lable for="i"> enter a element t
 <lable> enter a style:</lable> <input id="s" name="s" placeholder="enter a style"> 
 <br>
 <br>
-<lable for="src"> </lable> script (javascript) <input id="src" name="src" placeholder="enter a script">
-
 </body>
 <br>`;
 document.body.appendChild(element);
@@ -21,7 +19,6 @@ var src = document.getElementById("src").value;
 const ce = document.createElement(E);
 ce.style = ES;
 ce.innerHTML  = txt;
-ce.innerHTML= src;
 
 document.body.appendChild(ce);
                ;}
