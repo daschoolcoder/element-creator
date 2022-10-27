@@ -27,4 +27,4 @@ document.body.appendChild(ce);
 //console for debug
 
 console.log("creating element:" + E + " style:" +ES + " txt:" + txt )
-      ;}
+alert("loaded element creater")      ;}
