@@ -18,7 +18,6 @@ var E = document.getElementById("i").value;
 var ES = document.getElementById("s").value;
 var txt = document.getElementById("t").value;
 var src = document.getElementById("src").value;
-
 const ce = document.createElement(E);
 ce.style = ES;
 ce.innerHTML  = txt;
