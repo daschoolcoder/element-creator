@@ -22,8 +22,6 @@ const ce = document.createElement(E);
 ce.style = ES;
 ce.innerHTML  = txt;
 ce.innerHTML= src;
-//making it do stuff 
+
 document.body.appendChild(ce);
-//debug
-  if error then {alert("a bug has been detected") ;}
-;}
+               ;}
